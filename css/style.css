@@ -1,0 +1,308 @@
+.safe-area {
+	height: 100vh;
+	background: url('../img/screen-bg.png') no-repeat center top;
+	background-size: cover;
+}
+
+.space {
+	padding:2.3rem 0 2.3rem 0;
+}
+
+.headline {
+	font-size: 1.8rem;
+}
+.description {
+	font-size: 1rem;
+}
+
+
+
+
+/* NAVBAR */
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-size: 0.8rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	text-decoration: underline;
+}
+
+.navbar-light .navbar-brand {
+	font-size: 1.2rem;
+}
+
+/* CAROUSEL */
+.carousel-headline {
+	font-size: 2.2rem;
+}
+.carousel-headline,
+.carousel-subheadline,
+.carousel-description {
+	color: #fff;
+	text-align: center;
+}
+
+.carousel-item {
+	flex-wrap: wrap;
+	justify-content: center
+}
+
+#slide {
+	display: flex;
+	height: 80vh;
+}
+.carousel-inner {
+	display: flex;
+	align-items: center
+}
+.carousel-indicators {
+	align-self: flex-end;
+}
+
+/* BUTTONS */
+.btn {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	border-radius: 1.5rem;
+	margin-right: 1rem;
+}
+
+.btn-noborders {
+	border-radius: 0;
+}
+
+/* FEATURES */
+.check-headline {
+	font-size: 1rem;
+	font-weight: 300;
+}
+.feature-space-headline {
+	padding:2rem 0 2rem 0;
+}
+.features .custom-control {
+	margin-bottom: 1.5rem;
+}
+.features .custom-control-input:checked~.custom-control-indicator {
+	background-color: #00bfa5;
+}
+.features .custom-checkbox .custom-control-input:checked~.custom-control-indicator {
+	background-image: none;
+}
+.features .custom-checkbox .custom-control-indicator {
+	border-radius: 0;
+}
+
+/* VIDEO */
+.video {
+	background-color: #e5eaed;
+}
+
+/* RATES */
+.rates {
+	background-color: #edf2f5;
+}
+.rates .headline {
+	margin-bottom: 2rem;
+}
+
+.rates-item {
+	height: 250px;
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+.rates-item .img {
+	height: 80px;
+}
+.rates-item .rates-headline {
+	font-weight: 300;
+	font-size: 1.3rem;
+	text-transform: uppercase;
+	padding:1rem 0 0 0;
+}
+
+.rates .hack-align-rate {
+	margin-left: 12.5%
+}
+
+
+/* CUSTOMER */
+.customer .headline {
+	margin-bottom: 2rem;
+}
+.customer-headline {
+	font-size: 1rem;
+	font-weight: 300;
+}
+.customer-name {
+	font-weight: 700;
+	font-size: .9rem;
+}
+
+/* BENEFIT */
+.benefit {
+	background-color: #00bfa5;
+}
+.benefit .headline,
+.benefit .description {
+	color: #fff;
+}
+.benefit .description {
+	font-weight: 300;
+}
+.benefit a {
+	margin-top: 2rem;
+	margin-right: 1.5rem;
+}
+.benefit p  {
+	margin-bottom: .5rem;
+}
+
+
+/* CONTACT */
+.contact {
+	background-color: #edf2f5;
+}
+.contact .headline {
+	margin-bottom: 1rem;
+}
+.contact .description,
+.contact .followup {
+	color: #9da6ac;
+	margin-bottom: .5rem;
+}
+
+.form-control {
+	border: 0;
+}
+
+.form-control::-webkit-input-placeholder { /* chrome/opera/safari */
+  font-size: .9rem;
+  color: #9da6ac;
+}
+
+/* RESPONSIVE */
+.navbar-toggle-item {
+	width: 35px;
+	height: 3px;
+	background-color: #fff;
+	display: block;
+	margin-bottom: .5rem;
+}
+@media (max-width: 576px) {
+	.hack-align-rate {
+		margin-left: 0 !important;
+	}
+	.container {
+		width: 100%;
+	}
+	.rates .space-col {
+		margin-bottom: 1rem;
+	}
+}
+
+
+@media (max-width: 1024px) {
+	.btn {
+		margin-top: 1rem;
+		display: block;
+		width: 100%;
+	}
+	.rates-item .rates-headline {
+		font-size: 1rem;
+	}
+}
+
+
+/* REVIEWS */
+.carousel-indicators li {
+	max-width: 10px;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+#customer {
+	height: auto;
+	padding-bottom: 2.5rem;
+}
+#customer .carousel-indicators li {
+	background-color: rgba(0,0,0,.3);
+}
+#customer .carousel-indicators .active {
+	background-color: #000;
+}
+
+.btn-success,
+.btn-success:hover,
+.btn-success:active { 
+	background-color: #00bfa5;
+  border-color: #00bfa5;
+}
+
+.btn-outline-secondary {
+	  color: #fff;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn-outline-secondary:hover,
+.btn-outline-secondary:active {
+	background-color: #fff;
+	color: #000;
+}
+
+.text {
+	font-size: 0.75rem;
+	font-weight: 300;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
